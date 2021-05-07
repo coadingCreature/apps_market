@@ -35,6 +35,10 @@
 
 .feed_back_grid img {
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 
 .feed_back_grid h2 {
