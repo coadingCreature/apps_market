@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.services_header {
+  margin: 1rem;
+}
+
+.services_header h1 {
+  margin: 1rem;
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: 800;
+}
+
+.services_header p {
+  margin: 1rem 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.landing_services_grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.landing_services_grid div {
+  padding: 2rem;
+  margin: 0.5em 1rem;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.landing_services_grid img {
+  margin: 0rem 1rem 1rem 1rem;
+  width: 35%;
+  height: auto;
+}
+
+.landing_services_grid h2 {
+  font-size: 1.5rem;
+  font-weight: 550;
+  padding-bottom: 0;
+}
+
+.landing_services_grid p {
+  padding-bottom: 0;
+  margin: 1rem 0rem 0.5rem 0rem;
+}
+
+@media only screen and (min-width: 767px) {
+  .services_header {
+    display: block;
+    margin: auto;
+    width: 35rem;
+  }
+  .landing_services_grid {
+    margin-top: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .landing_services_grid div {
+    max-width: 17rem;
+    height: 25.5rem;
+  }
+}
+/*# sourceMappingURL=LandingServices.css.map */
