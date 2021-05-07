@@ -79,7 +79,41 @@
     
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+
+    .services_header {
+
+        display: block;
+ 
+        margin: auto;
+ 
+        width: 35rem;
+         
+     }
+ 
+     .landing_services_grid {
+ 
+         margin-top: 2rem;
+ 
+         display: flex;
+ 
+         flex-wrap: nowrap;
+ 
+         justify-content: center;
+ 
+         div {
+ 
+             max-width: 17rem;
+             height: 100%;
+ 
+         }
+ 
+     }
+ 
+
+}
+
+@media only screen and (min-width: 1024px) {
  
     .services_header {
 
