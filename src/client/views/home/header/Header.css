@@ -127,10 +127,14 @@
     width: 100%;
   }
   .header_grid .header_btn, .header_grid .explor_more {
+    margin-top: 1rem;
     left: 0;
     right: 0;
     -webkit-transform: unset;
             transform: unset;
+  }
+  .header_grid .explor_more {
+    top: -3.1rem;
   }
 }
 /*# sourceMappingURL=Header.css.map */

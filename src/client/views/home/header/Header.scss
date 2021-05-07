@@ -169,10 +169,17 @@
         }
 
         .header_btn, .explor_more {
+
+            margin-top: 1rem;
+
             left: 0;
             right: 0;
             transform: unset;
         } 
+
+        .explor_more {
+            top: -3.1rem;
+        }
 
     }
 
