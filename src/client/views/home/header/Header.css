@@ -57,7 +57,7 @@
 }
 
 .header_grid h1 {
-  padding: 3.5rem 0rem 1rem 0rem;
+  padding: 3.1rem 0rem 1rem 0rem;
   margin-bottom: 1rem;
   font-size: 1.5rem;
   color: #fff;
@@ -142,6 +142,7 @@
             align-items: center;
   }
   .header_grid .header_btn {
+    margin-top: 0.5rem;
     margin-right: 3rem;
     display: block;
   }
