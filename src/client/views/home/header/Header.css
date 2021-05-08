@@ -64,12 +64,13 @@
 }
 
 .header_grid p {
+  margin-bottom: 1rem;
   font-size: 1rem;
   color: #fff;
 }
 
 .header_grid .header_btn {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   width: 7.5rem;
   position: relative;
   left: 50%;
