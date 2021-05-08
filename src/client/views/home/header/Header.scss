@@ -145,19 +145,10 @@
         margin-left: 2rem;
     }
 
-    .header_grid_container {
-    
-        img {
-            width: 100%;
-            height: 39.5rem;
-        }
-    
-    }
+ 
 
 
     .header_grid {
-
-        padding-top: 1rem;
 
         display: grid;
 
@@ -165,7 +156,11 @@
 
         justify-items: center;
 
-        // align-items: center;
+        align-items: center;
+
+        h1 {
+            padding: 0;
+        }
 
         .header_imgs {
             display: block;
@@ -213,11 +208,6 @@
         }
     }
 
-}
- 
-
-@media only screen and (min-width:1025px) {
-
     .header_grid_container {
     
         img {
@@ -226,6 +216,12 @@
         }
     
     }
+
+}
+ 
+
+@media only screen and (min-width:1025px) {
+
 
     .header_txt_container {
         margin-left: 7.5rem;
