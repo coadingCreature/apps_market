@@ -28,7 +28,14 @@
   background: #333697;
 }
 
-.contact_us_container h1, .contact_us_container p {
+.contact_us_container h1 {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.contact_us_container p {
+  margin-bottom: 0.5rem;
   line-height: 1.5rem;
   font-size: 1rem;
   color: #fff;
