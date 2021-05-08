@@ -4,7 +4,6 @@ import "./Header.css";
 
 
 import {
-    Container,
     Row,
     Col,
     Navbar,
@@ -22,7 +21,7 @@ export default function Header () {
 
        <section className="header_container">
 
-            <Row>
+            <Row className="navbar_container">
             <Col
                 style={{
                 background: "#3c41df",
@@ -38,7 +37,7 @@ export default function Header () {
                 <Navbar.Brand href="#home">
                         <div className="nav_logo_container">
                             <div>
-                                <HomeIcon style={{fontSize:"3rem", marginBottom:"0.5rem",color:"#0000ff"}}/>
+                                <HomeIcon style={{fontSize:"3rem", marginBottom:"0.5rem",color:"#5c84dc"}}/>
                             </div>
                             <div>
                                 <h1> Apps <span> Market </span> </h1>
@@ -58,7 +57,7 @@ export default function Header () {
                     <Nav.Link className="nav_links" href="#deets">News</Nav.Link>
                     <Nav.Link eventKey={2} href="#memes">
                             <div className="navbar_btn">
-                                dummy data
+                                Contact Us
                             </div>
                     </Nav.Link>
                     </Nav>
@@ -78,15 +77,19 @@ export default function Header () {
                      <div>
                         <h1> We create applications with excellent technology. </h1>
                         <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas ea delectus minima commodi qui ullam adipisci. Veniam optio hic quisquam earum adipisci architecto saepe, quibusdam eligendi id sed sunt amet? </p>
-                        <img className="header_btn" src="./header_btn.svg" alt="header button" /> 
                     </div>
                     
-                    <div className="explor_more"> 
+                    <div className="header_btn_container">
                         <div>
-                            <b> explore more </b> 
+                            <img className="header_btn" src="./header_btn.svg" alt="header button" /> 
                         </div>
-                        <div>
-                            <ArrowRightAltIcon/>
+                        <div className="explor_more"> 
+                            <div>
+                                <b> explore more </b> 
+                            </div>
+                            <div>
+                                <ArrowRightAltIcon/>
+                            </div>
                         </div>
                     </div>
                </div>

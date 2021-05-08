@@ -8,6 +8,12 @@
 
 }
 
+.navbar_container {
+    position: fixed;
+    width: 103%;
+    z-index: 100;
+}
+
 .header_container {
     overflow: hidden;
 }
@@ -22,7 +28,7 @@
     h1 {
         font-size: 1.5rem;
         font-weight: 1000;
-        color: #0000ff;
+        color: #5c84dc;
 
         span {
             color: #000;
@@ -32,6 +38,15 @@
 }
 
 
+    .nav_links {
+
+        margin-right: 2.5rem;
+
+        font-size: 1rem;           
+
+        color: #fff !important;
+    }
+
 .header_grid_container {
 
     margin-bottom: 3.5rem;
@@ -40,7 +55,7 @@
 
     img {
         width: 100%;
-        height: 21.5rem;
+        height: 35.5rem;
     }
 
 }
@@ -55,7 +70,7 @@
 
     h1 {
 
-        margin: 1rem 0rem;
+        padding: 3.5rem 0rem 1rem 0rem;
 
         font-size: 1.5rem;
         color: #fff;
@@ -100,7 +115,6 @@
 
         transform: translate(-50%);
 
-
         color: #fff;
     }
 
@@ -112,14 +126,76 @@
 
 .navbar_btn {
 
-    padding: 0.2rem 1rem;
+    padding: 0.1rem 1rem;
 
+    font-size: 1rem;
     border-radius: 1.5rem;
     background: #fff;
 }
 
 
 @media only screen and (min-width: 767px) {
+
+    .header_container {
+        overflow: hidden;
+    }
+    
+
+    .header_txt_container {
+        margin-left: 2rem;
+    }
+
+    .header_grid_container {
+    
+        img {
+            width: 100%;
+            height: 39.5rem;
+        }
+    
+    }
+
+
+    .header_grid {
+
+        padding-top: 1rem;
+
+        display: grid;
+
+        grid-template-columns: 55% 45%;
+
+        justify-items: center;
+
+        // align-items: center;
+
+        .header_imgs {
+            display: block;
+            width: 100%;
+        }
+
+        .header_btn_container {
+            display: flex;
+            align-items: center;
+        }
+
+        .header_btn {
+            margin-right: 3rem;
+            display: block;
+        }
+
+        .header_btn, .explor_more {
+
+            margin-top: 1rem;
+
+            left: 0;
+            right: 0;
+            transform: unset;
+        } 
+
+    }
+
+}
+
+@media only screen and (min-width:988px) {
 
     .nav_links_container {
 
@@ -137,52 +213,22 @@
         }
     }
 
-    .header_txt_container {
-        margin-left: 7.5rem;
-    }
+}
+ 
+
+@media only screen and (min-width:1025px) {
 
     .header_grid_container {
     
         img {
             width: 100%;
-            height: 30.5rem;
+            height: 37.5rem;
         }
     
     }
 
-
-    .header_grid {
-
-        padding-top: 3.5rem;
-
-        display: grid;
-
-        grid-template-columns: 55% 45%;
-
-        justify-items: center;
-
-        justify-content: center;
-
-        .header_imgs {
-            display: block;
-            width: 100%;
-        }
-
-        .header_btn, .explor_more {
-
-            margin-top: 1rem;
-
-            left: 0;
-            right: 0;
-            transform: unset;
-        } 
-
-        .explor_more {
-            top: -3.1rem;
-        }
-
+    .header_txt_container {
+        margin-left: 7.5rem;
     }
-
-    
 
 }

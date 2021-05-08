@@ -89,6 +89,8 @@
     .landing_portfolio_grid {
         
         display: flex;
+
+        flex-wrap: wrap;
         
         justify-content: flex-end;
 
